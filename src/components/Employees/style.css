@@ -1,0 +1,36 @@
+.employees {
+  padding: 0; }
+  .employees > * + * {
+    border-top: 1px solid #f1f1f1; }
+
+.list-item {
+  align-items: end;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px 0;
+  text-align: left; }
+  .list-item.list-item--label {
+    display: none; }
+    @media (min-width: 1024px) {
+      .list-item.list-item--label {
+        color: #D84352;
+        display: grid;
+        font-size: 2.2rem;
+        font-weight: 600; } }
+  .list-item > * {
+    margin: 5px 0; }
+  @media (min-width: 1024px) {
+    .list-item {
+      grid-template-columns: 1.2fr 1.7fr .8fr .5fr; } }
+
+.employees-name {
+  color: #151E3F;
+  font-size: 2rem;
+  font-weight: 600; }
+
+.label {
+  color: #151E3F;
+  font-weight: 300; }
+  @media (min-width: 1024px) {
+    .label {
+      display: none; } }

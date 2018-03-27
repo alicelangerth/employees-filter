@@ -1,0 +1,19 @@
+@import 'assets/variables.scss';
+
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: $gutter;
+
+	> * + * {
+		margin-top: 20px;
+	}
+
+	@include tablet {
+		padding: 40px;
+	}
+
+	@include desktop {
+		padding: 80px 40px;
+	}
+}

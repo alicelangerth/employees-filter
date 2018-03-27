@@ -1,0 +1,21 @@
+@import 'assets/variables.scss';
+
+.header {
+	-webkit-font-smoothing: antialiased;
+	align-items: center;
+	background: $colorPrimary;
+	box-sizing: border-box;
+	color: #E998A0;
+	display: flex;
+	height: 40vh;
+	max-height: 400px;
+	padding: 40px;
+	width: 100%;
+	
+	> *  {
+		margin: 0 auto;
+		max-width: 1000px;
+		text-align: left;
+		width: 100%;
+	}
+}

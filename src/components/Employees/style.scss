@@ -1,0 +1,49 @@
+@import 'assets/variables.scss';
+
+.employees {
+	padding: 0;
+
+	> * + * {
+		border-top: 1px solid #f1f1f1;
+	}
+}
+.list-item {
+	align-items: end;
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: $gutter 0;
+	text-align: left;
+
+	&.list-item--label {
+		display: none;
+
+		@include desktop {
+			color: $colorPrimary;
+			display: grid;
+			font-size: 2.2rem;			
+			font-weight: 600;
+		}
+	}
+
+	> * {
+		margin: 5px 0;
+	}
+
+	@include desktop {
+		grid-template-columns: 1.2fr 1.7fr .8fr .5fr;
+	}
+}
+.employees-name {
+	color: $colorSecondary;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.label {
+	color: $colorSecondary;
+	font-weight: 300;
+
+	@include desktop {
+		display: none;
+	}
+}

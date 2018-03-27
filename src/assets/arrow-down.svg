@@ -1,0 +1,6 @@
+<svg width="19" height="9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <use xlink:href="#path0_stroke" transform="translate(1.5 1.5)" fill="#FFF"/>
+  <defs>
+    <path id="path0_stroke" d="M8 6l-.6.8.6.45.6-.45L8 6zM-.6.8l8 6 1.2-1.6-8-6L-.6.8zm9.2 6l8-6-1.2-1.6-8 6 1.2 1.6z"/>
+  </defs>
+</svg>
