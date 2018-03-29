@@ -7,7 +7,7 @@
   display: flex;
   height: 40vh;
   max-height: 400px;
-  padding: 40px;
+  padding: 20px;
   width: 100%; }
   .header > * {
     margin: 0 auto;
